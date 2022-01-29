@@ -1,0 +1,24 @@
+{
+	"name": "eslint-config-tantalum",
+	"version": "0.1.0",
+	"description": "A eslint config part of tantalum.",
+	"author": "Milo Moisson <milomoisson@gmail.com>",
+	"license": "MIT",
+	"main": "index.js",
+	"scripts": {
+		"lint": "eslint . --fix"
+	},
+	"files": [
+		"base.js",
+		"app.js",
+		"web.js",
+		"README.md",
+		"package.json"
+	],
+	"peerDependencies": {
+		"@typescript-eslint/parser": "^5.10.0",
+		"eslint-config-prettier": "^8.3.0",
+		"eslint-plugin-import": "^2.25.4",
+		"eslint-plugin-sort-destructure-keys": "^1.4.0"
+	}
+}
