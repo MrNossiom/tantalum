@@ -1,0 +1,41 @@
+{
+	"$schema": "https://json.schemastore.org/tsconfig",
+	"display": "Tantalum Base",
+	"compilerOptions": {
+		// Output
+		"composite": false,
+		"declaration": true,
+		"declarationMap": true,
+		"emitDecoratorMetadata": true,
+		"outDir": "./dist",
+		"sourceMap": true,
+
+		// Compiling
+		"allowSyntheticDefaultImports": true,
+		"esModuleInterop": true,
+		"inlineSources": false,
+		"removeComments": true,
+
+		// Additional configuration
+		"baseUrl": "./",
+		"module": "esnext",
+		"preserveWatchOutput": true,
+		"skipLibCheck": true,
+		"target": "esnext",
+
+		// Rules
+		"allowJs": false,
+		"experimentalDecorators": true,
+		"forceConsistentCasingInFileNames": true,
+		"incremental": true,
+		"isolatedModules": true,
+		"noFallthroughCasesInSwitch": true,
+		"noImplicitAny": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"strict": true,
+		"strictBindCallApply": true,
+		"strictNullChecks": true
+	},
+	"exclude": ["node_modules", "dist"]
+}

@@ -1,0 +1,11 @@
+{
+	"$schema": "https://json.schemastore.org/tsconfig",
+	"display": "Tantalum React Library",
+	"extends": "./base.json",
+	"compilerOptions": {
+		"lib": ["ES2015"],
+		"module": "esnext",
+		"target": "esnext",
+		"jsx": "react-jsx"
+	}
+}
