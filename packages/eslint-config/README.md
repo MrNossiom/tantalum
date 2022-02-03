@@ -4,13 +4,22 @@
 
 ---
 
-## Project structure
+## How to use
 
+Add a extend key to your eslint config file:
+
+```json
+{
+	"extends": "tantalum/<preset-name>"
+}
 ```
-├ lib/ Definitions of different parts of the configurations files.
-├ .husky/ Script to validate commits messages and lint files
-├ packages/
-│ ├ create-tantalum-app CLI to bootstrap JS apps, uses configurations stuff in this repo
-│ └ eslint-config-tantalum Opinionated ESlint configuration
-└ ...other basic repo stuff
-```
+
+Where `[preset-name]` one of the presets without the `.js` extension or nothing for base configuration.
+
+## Extendable configurations
+
+-   `back.js` for back-end code.
+-   `<none>` or `index.js` for base configuration, extended by all.
+-   `nextjs.js` for NextJS applications.
+-   `react.js` for react-based applications.
+-   `typescript.js` for typescript applications.

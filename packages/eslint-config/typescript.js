@@ -7,7 +7,7 @@ module.exports = {
 	plugins: ['@typescript-eslint'],
 	extends: [
 		'plugin:@typescript-eslint/recommended',
-		require.resolve('./base.js'),
+		require.resolve('./index.js'),
 	],
 	rules: {
 		'@typescript-eslint/no-empty-function': 'warn',

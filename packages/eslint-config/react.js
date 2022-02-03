@@ -11,7 +11,7 @@ module.exports = {
 		},
 	},
 	plugins: ['jsx-a11y'],
-	extends: [require.resolve('./base.js'), 'plugin:jsx-a11y/recommended'],
+	extends: [require.resolve('./index.js'), 'plugin:jsx-a11y/recommended'],
 	rules: {
 		'jsx-a11y/anchor-is-valid': 'off',
 		'jsx-quotes': 'warn',

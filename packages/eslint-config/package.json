@@ -9,14 +9,19 @@
 		"lint": "eslint . --fix"
 	},
 	"files": [
-		"base.js",
-		"app.js",
-		"web.js",
 		"README.md",
-		"package.json"
+		"package.json",
+		"rules/",
+		"back.js",
+		"base.js",
+		"nextjs.js",
+		"react.js",
+		"typescript.js"
 	],
-	"peerDependencies": {
+	"dependencies": {
+		"@typescript-eslint/eslint-plugin": "^5.10.2",
 		"@typescript-eslint/parser": "^5.10.0",
+		"eslint-config-next": "^12.0.10",
 		"eslint-config-prettier": "^8.3.0",
 		"eslint-plugin-import": "^2.25.4",
 		"eslint-plugin-sort-destructure-keys": "^1.4.0"
