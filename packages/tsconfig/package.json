@@ -4,6 +4,8 @@
 	"private": false,
 	"main": "index.js",
 	"files": [
+		"README.md",
+		"package.json",
 		"base.json",
 		"nextjs.json",
 		"react-library.json",

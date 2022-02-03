@@ -3,12 +3,9 @@
 	"display": "Tantalum Base",
 	"compilerOptions": {
 		// Output
-		"composite": false,
-		"declaration": true,
-		"declarationMap": true,
-		"emitDecoratorMetadata": true,
-		"outDir": "./dist",
+		"noEmit": true,
 		"sourceMap": true,
+		"incremental": true,
 
 		// Compiling
 		"allowSyntheticDefaultImports": true,
@@ -17,8 +14,8 @@
 		"removeComments": true,
 
 		// Additional configuration
-		"baseUrl": "./",
 		"module": "esnext",
+		"moduleResolution": "node",
 		"preserveWatchOutput": true,
 		"skipLibCheck": true,
 		"target": "esnext",
@@ -27,15 +24,14 @@
 		"allowJs": false,
 		"experimentalDecorators": true,
 		"forceConsistentCasingInFileNames": true,
-		"incremental": true,
 		"isolatedModules": true,
 		"noFallthroughCasesInSwitch": true,
 		"noImplicitAny": true,
-		"noUnusedLocals": true,
-		"noUnusedParameters": true,
 		"strict": true,
 		"strictBindCallApply": true,
-		"strictNullChecks": true
-	},
-	"exclude": ["node_modules", "dist"]
+		"strictNullChecks": true,
+		// The next two are handled by linters
+		"noUnusedLocals": false,
+		"noUnusedParameters": false
+	}
 }

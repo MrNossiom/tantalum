@@ -1,0 +1,14 @@
+{
+	"$schema": "https://json.schemastore.org/tsconfig",
+	"display": "Tantalum Build",
+	"extends": "./index.json",
+	"compilerOptions": {
+		// Output
+		"incremental": false,
+		"lib": ["ES2015"],
+		"noEmit": false,
+		"declaration": true,
+		"declarationMap": true,
+		"emitDecoratorMetadata": true
+	}
+}
