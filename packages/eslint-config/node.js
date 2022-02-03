@@ -3,9 +3,11 @@
  * https://eslint.org/docs/rules/<name-of-the-rule>
  */
 
-// TODO: add eslint-plugin-node
-
 module.exports = {
+	plugins: ['node'],
+
+	extends: ['plugin:node/recommended', require.resolve('./index.js')],
+
 	env: {
 		node: true,
 	},

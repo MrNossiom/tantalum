@@ -90,41 +90,6 @@ module.exports = {
 
 		'max-lines': 'warn',
 
-		'max-lines-per-function': [
-			'warn',
-			{
-				max: 200,
-			},
-		],
-
-		'max-nested-callbacks': [
-			'warn',
-			{
-				max: 4,
-			},
-		],
-
-		'max-params': [
-			'warn',
-			{
-				max: 5,
-			},
-		],
-
-		'max-statements': [
-			'warn',
-			{
-				max: 100,
-			},
-		],
-
-		'max-statements-per-line': [
-			'warn',
-			{
-				max: 3,
-			},
-		],
-
 		'new-cap': 'warn',
 
 		'newline-after-var': ['warn', 'always'],
@@ -158,16 +123,6 @@ module.exports = {
 		'no-extra-bind': 'warn',
 
 		'no-extra-label': 'warn',
-
-		'no-floating-decimal': 'warn',
-
-		'no-implicit-coercion': 'warn',
-
-		'no-implicit-globals': 'warn',
-
-		'no-implied-eval': 'warn',
-
-		'no-inline-comments': 'warn',
 
 		'no-invalid-this': 'warn',
 
@@ -220,8 +175,6 @@ module.exports = {
 
 		'no-restricted-syntax': 'warn',
 
-		'no-return-await': 'warn',
-
 		'no-script-url': 'warn',
 
 		'no-self-compare': 'warn',
@@ -258,10 +211,6 @@ module.exports = {
 
 		'no-useless-return': 'warn',
 
-		'no-var': 'warn',
-
-		'no-void': 'warn',
-
 		'no-warning-comments': 'warn',
 
 		'no-whitespace-before-property': 'warn',
@@ -284,12 +233,6 @@ module.exports = {
 
 		'padding-line-between-statements': 'warn',
 
-		'prefer-arrow-callback': 'warn',
-
-		'prefer-const': 'warn',
-
-		'prefer-destructuring': 'warn',
-
 		'prefer-exponentiation-operator': 'warn',
 
 		'prefer-named-capture-group': 'off',
@@ -301,22 +244,6 @@ module.exports = {
 		'prefer-promise-reject-errors': 'warn',
 
 		'prefer-reflect': 'warn',
-
-		'prefer-regex-literals': 'warn',
-
-		'prefer-rest-params': 'warn',
-
-		'prefer-spread': 'warn',
-
-		'prefer-template': 'warn',
-
-		quotes: ['warn', 'single', 'avoid-escape'],
-
-		radix: 'warn',
-
-		'require-await': 'warn',
-
-		'require-jsdoc': 'off',
 
 		'require-unicode-regexp': 'warn',
 

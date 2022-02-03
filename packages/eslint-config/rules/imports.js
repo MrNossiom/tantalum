@@ -7,11 +7,14 @@ module.exports = {
 	env: {
 		es6: true,
 	},
+
 	parserOptions: {
 		ecmaVersion: 6,
 		sourceType: 'module',
 	},
+
 	plugins: ['import'],
+
 	settings: {
 		'import/resolver': {
 			node: {
@@ -25,6 +28,7 @@ module.exports = {
 			'\\.(coffee|scss|css|less|hbs|svg|json)$',
 		],
 	},
+
 	rules: {
 		// ! Static analysis:
 		/*
