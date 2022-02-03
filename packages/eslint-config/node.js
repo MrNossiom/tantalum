@@ -4,9 +4,7 @@
  */
 
 module.exports = {
-	plugins: ['node'],
-
-	extends: ['plugin:node/recommended', require.resolve('./index.js')],
+	extends: [require.resolve('./index.js')],
 
 	env: {
 		node: true,
