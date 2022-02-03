@@ -17,5 +17,15 @@ module.exports = {
 		'@typescript-eslint/no-shadow': 'error',
 
 		'@typescript-eslint/no-useless-constructor': 'warn',
+
+		/*
+		 * Does not work with typescript decorators
+		 */
+		'new-cap': 'off',
+
+		/*
+		 * Typescript eslint plugin take care of this
+		 */
+		'no-unused-vars': 'off',
 	},
 };
