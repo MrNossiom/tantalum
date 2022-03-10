@@ -8,18 +8,25 @@
 
 Add a extend key to your eslint config file:
 
-```json
-{
-	"extends": "tantalum/<preset-name>"
-}
+```js
+// .eslintrc.cjs
+/* eslint-disable */
+const withTantalumConfig = require('eslint-config-tantalum');
+
+module.exports = withTantalumConfig('<stack>' | ['<set-one>', 'set-two'])({
+	rules: {
+		// override the configuration
+	},
+});
 ```
 
-Where `[preset-name]` one of the presets without the `.js` extension or nothing for base configuration.
+### Stacks
 
-## Extendable configurations
+-   `nextjs` for NextJS applications extends react and next/core-vitals (next must be installed of course).
+-   `nestjs` for NestJS applications, extends back.
 
+### Sets
+
+-   `<none>` or `index.js` for base configuration.
 -   `back.js` for back-end code.
--   `<none>` or `index.js` for base configuration, extended by all.
--   `nextjs.js` for NextJS applications.
 -   `react.js` for react-based applications.
--   `typescript.js` for typescript applications.

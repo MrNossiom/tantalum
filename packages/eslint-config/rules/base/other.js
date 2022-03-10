@@ -1,4 +1,6 @@
 module.exports = {
+	plugins: ['sort-destructure-keys'],
+
 	rules: {
 		'accessor-pairs': 'warn',
 
@@ -30,9 +32,7 @@ module.exports = {
 		'capitalized-comments': 'warn',
 
 		complexity: 'warn',
-
 		'computed-property-spacing': ['warn', 'never'],
-
 		'consistent-this': 'warn',
 
 		curly: ['warn', 'multi-line', 'consistent'],
@@ -89,8 +89,6 @@ module.exports = {
 		'max-len': 'off',
 
 		'max-lines': 'warn',
-
-		'new-cap': 'warn',
 
 		'newline-after-var': ['warn', 'always'],
 
@@ -293,6 +291,10 @@ module.exports = {
 
 		yoda: 'warn',
 
-		'no-unused-vars': 'warn',
+		// ! Does not work with typescript decorators
+		'new-cap': 'off',
+
+		// ! Typescript eslint plugin take care of this
+		'no-unused-vars': 'off',
 	},
 };

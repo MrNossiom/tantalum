@@ -10,8 +10,8 @@ module.exports = {
 			version: 'detect',
 		},
 	},
-	plugins: ['jsx-a11y'],
-	extends: [require.resolve('./index.js'), 'plugin:jsx-a11y/recommended'],
+	plugins: ['jsx-a11y', 'react'],
+	extends: ['plugin:jsx-a11y/recommended'],
 	rules: {
 		'jsx-a11y/anchor-is-valid': 'off',
 		'jsx-quotes': 'warn',
