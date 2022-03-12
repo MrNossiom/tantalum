@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "packages/eslint-config"
+		},
+		{
+			"path": "packages/tsconfig"
+		}
+	],
+	"settings": {}
+}
