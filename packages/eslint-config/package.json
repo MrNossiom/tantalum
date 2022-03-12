@@ -1,5 +1,5 @@
 {
-	"name": "eslint-config-tantalum",
+	"name": "@tantalum/eslint-config",
 	"version": "0.0.5",
 	"description": "A eslint config part of tantalum.",
 	"author": "Milo Moisson <milomoisson@gmail.com>",
@@ -12,15 +12,7 @@
 		"README.md",
 		"package.json",
 		"rules/",
-		"index.js",
-		"typescript.js",
-		"back.js",
-		"node.js",
-		"base.js",
-		"nextjs.js",
-		"react.js",
-		"stack-nextjs.js",
-		"stack-nestjs.js"
+		"index.js"
 	],
 	"dependencies": {
 		"@typescript-eslint/eslint-plugin": "^5.10.2",

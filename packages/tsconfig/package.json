@@ -1,5 +1,5 @@
 {
-	"name": "tsconfig-tantalum",
+	"name": "@tantalum/tsconfig",
 	"version": "0.0.5",
 	"private": false,
 	"main": "index.js",
