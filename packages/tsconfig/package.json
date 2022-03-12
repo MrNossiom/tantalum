@@ -5,11 +5,12 @@
 	"main": "index.js",
 	"files": [
 		"README.md",
-		"package.json",
-		"base.json",
+		"LICENCE.md",
+		"build.json",
+		"index.json",
+		"library.json",
 		"nextjs.json",
-		"react-library.json",
-		"library.json"
+		"react-library.json"
 	],
 	"gitHead": "1cf64ea3161c802eb849a8cd411d4ead9ac39c81"
 }
