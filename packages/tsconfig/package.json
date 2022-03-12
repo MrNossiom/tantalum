@@ -1,7 +1,6 @@
 {
 	"name": "@tantalum/tsconfig",
 	"version": "1.0.0-alpha.0",
-	"private": false,
 	"main": "index.js",
 	"files": [
 		"README.md",
