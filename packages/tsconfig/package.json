@@ -1,6 +1,6 @@
 {
 	"name": "@tantalum/tsconfig",
-	"version": "0.0.5",
+	"version": "1.0.0-alpha.0",
 	"private": false,
 	"main": "index.js",
 	"files": [
