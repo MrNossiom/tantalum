@@ -1,6 +1,6 @@
 {
 	"name": "@tantalum/eslint-config",
-	"version": "1.0.0-alpha.0",
+	"version": "1.0.0-alpha.1",
 	"description": "A eslint config part of tantalum.",
 	"author": "Milo Moisson <milomoisson@gmail.com>",
 	"license": "MIT",
