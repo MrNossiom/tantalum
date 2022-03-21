@@ -1,7 +1,7 @@
 {
 	"$schema": "https://json.schemastore.org/tsconfig",
 	"display": "Tantalum Next.js",
-	"extends": "./index.json",
+	"extends": "../index.json",
 	"compilerOptions": {
 		"lib": ["dom", "dom.iterable", "esnext"],
 		"noEmit": true,
