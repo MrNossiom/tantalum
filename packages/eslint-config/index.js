@@ -3,7 +3,7 @@ const base = require('./rules/base/index.js');
 const SETS = require('./rules/sets/index.js');
 
 const STACKS = {
-	nextJs: [SETS.react],
+	nextJs: [{ extends: 'next/core-web-vitals' }, SETS.react],
 	nestJs: [SETS.back, SETS.node],
 };
 

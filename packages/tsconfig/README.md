@@ -1,10 +1,13 @@
-# `tsconfig`
-
-These are base shared `tsconfig.json`s from which all other `tsconfig.json`'s inherit from.
+# `@tantalum-config/tsconfig`
 
 ## Shared configurations
 
--   `<none>` or `index.json` for base configuration, extended by all.
--   `library.json` for libraries.
--   `nextjs.json` for NextJS applications.
+-   `index.json` for base configuration.
+-   `build.json` for libraries.
+-   `library.json` for NextJS applications.
 -   `react-library.json` for react libraries.
+
+## Stacks (prefixed with a `stacks/`)
+
+-   `nextjs.json` for react libraries.
+-   `nextjs.json` for react libraries.

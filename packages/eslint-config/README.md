@@ -1,4 +1,4 @@
-# eslint-config-tantalum
+# `eslint-config-tantalum`
 
 > A highly opinionated ESLint configuration for Tantalum
 
@@ -10,10 +10,9 @@ Add a extend key to your eslint config file:
 
 ```js
 // .eslintrc.cjs
-/* eslint-disable */
 const withTantalumConfig = require('eslint-config-tantalum');
 
-module.exports = withTantalumConfig('<stack>' | ['<set-one>', 'set-two'])({
+module.exports = withTantalumConfig('<stack>' | ['<sets>'])({
 	rules: {
 		// override the configuration
 	},
@@ -27,6 +26,8 @@ module.exports = withTantalumConfig('<stack>' | ['<set-one>', 'set-two'])({
 
 ### Sets
 
--   `<none>` or `index.js` for base configuration.
--   `back.js` for back-end code.
--   `react.js` for react-based applications.
+> An empty array will set only the base configuration
+
+-   `back` for back-end or server-side code.
+-   `node` for node apps.
+-   `react` for react-based apps.
