@@ -10,11 +10,11 @@ Add a extend key to your eslint config file:
 
 ```js
 // .eslintrc.cjs
-const withTantalumConfig = require('eslint-config-tantalum');
+const withTantalumConfig = require('@tantalum-config/eslint-config');
 
 module.exports = withTantalumConfig('<stack>' | ['<sets>'])({
 	rules: {
-		// override the configuration
+		// Override the configuration
 	},
 });
 ```

@@ -67,7 +67,9 @@ module.exports = {
 			'warn',
 
 			{
-				exceptionPatterns: ['[x-z]'],
+				// `d` for object with an svg path
+				// `x,y,z` for coords
+				exceptionPatterns: ['[dxyz]'],
 			},
 		],
 

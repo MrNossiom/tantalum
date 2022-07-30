@@ -165,7 +165,7 @@ module.exports = {
 		'import/newline-after-import': 'warn',
 
 		// * Require modules with a single export to use a default export/
-		'import/prefer-default-export': 'warn',
+		'import/prefer-default-export': 'off',
 
 		// * Restrict which files can be imported in a given folder/
 		'import/no-restricted-paths': 'off',
@@ -258,13 +258,7 @@ module.exports = {
 		'import/no-relative-parent-imports': 'off',
 
 		// * Reports modules without any exports, or with unused exports/
-		'import/no-unused-modules': [
-			'warn',
-			{
-				missingExports: true,
-				unusedExports: true,
-			},
-		],
+		'import/no-unused-modules': 'off',
 
 		// * Reports the use of import declarations with CommonJS exports in any module except for the main module./
 		'import/no-import-module-exports': [
