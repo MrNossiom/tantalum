@@ -17,5 +17,13 @@ module.exports = {
 		'@typescript-eslint/no-shadow': 'error',
 
 		'@typescript-eslint/no-useless-constructor': 'warn',
+
+		'@typescript-eslint/no-unused-vars': [
+			'warn',
+			{
+				varsIgnorePattern: '_.*',
+				argsIgnorePattern: '_.*',
+			},
+		],
 	},
 };

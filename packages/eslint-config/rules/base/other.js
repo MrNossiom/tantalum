@@ -65,11 +65,11 @@ module.exports = {
 
 		'id-length': [
 			'warn',
-
 			{
-				// `d` for object with an svg path
+				// `a` for HTML tag
+				// `d` for an svg path
 				// `x,y,z` for coords
-				exceptionPatterns: ['[dxyz]'],
+				exceptionPatterns: ['[adxyz]'],
 			},
 		],
 
