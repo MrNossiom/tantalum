@@ -1,5 +1,5 @@
 /* eslint-disable */
-const withTantalumConfig = require('eslint-config-tantalum');
+const withTantalumConfig = require('@tantalum-config/eslint-config');
 
 module.exports = withTantalumConfig(['node'])({
 	rules: {

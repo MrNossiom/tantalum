@@ -118,7 +118,8 @@ module.exports = {
 					// Karma config
 					'**/karma.conf.js',
 					// ESLint config
-					'**/.eslintrc.js',
+					'**/.eslintrc.cjs',
+					'**/build.ts',
 				],
 				optionalDependencies: false,
 			},

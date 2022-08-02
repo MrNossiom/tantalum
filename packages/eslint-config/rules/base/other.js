@@ -66,10 +66,13 @@ module.exports = {
 		'id-length': [
 			'warn',
 			{
-				// `a` for HTML tag
-				// `d` for an svg path
-				// `x,y,z` for coords
-				exceptionPatterns: ['[adxyz]'],
+				/*
+				 * `a` for HTML tag
+				 * `d` for an svg path
+				 * `p,k` for ML (temperature and K)
+				 * `x,y,z` for coords
+				 */
+				exceptionPatterns: ['[adpkxyz]'],
 			},
 		],
 
@@ -83,8 +86,6 @@ module.exports = {
 		'lines-around-directive': 'warn',
 
 		'lines-between-class-members': 'warn',
-
-		'max-classes-per-file': 'warn',
 
 		'max-depth': 'warn',
 
@@ -107,8 +108,6 @@ module.exports = {
 		'no-catch-shadow': 'warn',
 
 		'no-constructor-return': 'warn',
-
-		'no-continue': 'warn',
 
 		'no-div-regex': 'warn',
 
@@ -298,5 +297,13 @@ module.exports = {
 
 		// ! Typescript eslint plugin take care of this
 		'no-unused-vars': 'off',
+
+		'@typescript-eslint/no-unused-vars': [
+			'warn',
+			{
+				varsIgnorePattern: '^_.*',
+				argsIgnorePattern: '^_.*',
+			},
+		],
 	},
 };
